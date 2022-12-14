@@ -1,0 +1,150 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #E3E2DF;
+    width:min-content;
+    margin: auto;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header {
+    margin: 10px 30px 0px 30px;
+}
+.header-container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    background: url(https://phonoteka.org/uploads/posts/2021-04/1618933073_2-phonoteka_org-p-besshovnii-fon-nebo-2.jpg) 100% 100%;
+}
+.img-container {
+    padding: 10px;
+    padding-left: 30px;
+}
+.icon {
+    width: 150px;
+    border-radius: 50%;
+}
+.text-header {
+    margin-left: 30px;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #313131;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    margin: 0px 30px 0px 30px;
+
+}
+.nav-container{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: #8eb3c9f3;
+    align-items: center;
+    justify-content: space-around ;
+    border-radius: 0px 0px 10px 10px;
+}
+.btnh{
+    display: flex;
+    width: 100%;
+padding: 5px;
+margin: 10px;
+font-size: 20px;
+justify-content: center;
+background-color: #b3c8cc;
+border-radius: 5px;
+}
+.btnf:hover{
+    background-color: #dfdcd5;
+    box-shadow: 0px 0px 5px 2px rgb(174, 115, 230);
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.btn a:hover{
+}
+.footer {
+}
+
+
+
+         
+.btn {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 10px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px rgb(176, 230, 255);
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .main{
+    margin: 10px 30px 0px 30px;
+
+
+  }
+  .content{
+    display: flex;
+    padding: 10px 30px 0px 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .content h2{
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .content span{
+    font-size: large;
+    font-weight: 600;
+  }
+ 
+
+
+
+
+.footer {
+}
+.footer-text {
+    margin: 10px 30px 0px 30px;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-transform: uppercase;
+    color: #314755;
+    font-weight: 600;
+}
+.footer-soc {
+}
+.img-stat{
+    width: 400px;
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+}
